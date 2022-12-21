@@ -7,11 +7,11 @@ function App() {
   const [data, setData] = useState()
   const [bye, setBye] = useState()
 
-  useEffect( () => {
+  useEffect(() => {
     text()
   }, [])
 
-  const text = async() => {
+  const text = async () => {
     const response = await fetch("http://localhost:8080/")
     setData(await response.text())
     const bye = await fetch("http://localhost:8080/bye")
@@ -23,6 +23,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>{data}</h2>
+        <h1>hola</h1>
         <h2>{bye}</h2>
       </header>
     </div>
