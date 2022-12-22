@@ -25,6 +25,8 @@ function App() {
         <h2>{data}</h2>
         <h1>new demo 2</h1>
         <h2>{bye}</h2>
+        <h2>{bye}</h2>
+        <h2>{bye}</h2>
       </header>
     </div>
   );
