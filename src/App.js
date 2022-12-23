@@ -23,7 +23,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>{data}</h2>
-        <h1>new demo 4</h1>
+        <h1>new demo 5</h1>
         <h2>{bye}</h2>
       </header>
     </div>
